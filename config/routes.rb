@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   		post :auth, to: 'authentication#create'
   		get '/auth' => 'authentication#fetch'
   	end
+  end
   namespace :v2 do
   	
   end
