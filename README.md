@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+For this project it will be based off Viget Gradebook project for possible interview candidates.
 
-Things you may want to cover:
+### Features
 
-* Ruby version
+- A teacher can manage his/her course roster
+- a Teacher can view the enrolled students and their grades for a given course
+- a student can see the courses he is registered for (with grades)
+- a students can see his GPA for a given semester
+- an admin can view enrollment counts across all courses for a semester (performance is a concern)
+- an admin can view an average grade for a given course (performance is a concern)
 
-* System dependencies
+### Gems Used
 
-* Configuration
+- Devise
+- JWT
 
-* Database creation
+## Front End construction
 
-* Database initialization
+The Front end will be a React app built from scratch.
 
-* How to run the test suite
+### NPM packages used
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- React
+- Redux
+- Reactstrap
+- Axios
+- 
